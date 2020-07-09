@@ -9,7 +9,7 @@ package sistemaclinico_dc;
  *
  * @author User
  */
-public class Paciente {
+public class Paciente extends Persona {
     protected String email;
     protected Receta receta;
     protected HistoriaClinica Hclinica;
