@@ -11,5 +11,20 @@ package sistemaclinico_dc;
  */
 public class Doctor {
     protected int regDoctor;
+    protected String especialidad;
+    protected Secretaria secretaria;
+    
+    
+    
+    public void recetar(){
+        
+    }
+    public void agregarPlanNut(){
+        
+    }
+    public void registraSecretaria(Secretaria secretaria){
+        this.secretaria=secretaria;
+        
+    }
     
 }
